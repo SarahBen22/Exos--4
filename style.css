@@ -1,0 +1,131 @@
+body {
+  background-color: #00FF7F;
+}
+
+.menu{
+  background-color: red;
+  order:1;
+}
+
+.header{
+
+  background-color: orange;
+  order:2;
+}
+
+.sign-up{
+  background-color: yellow;
+  order: 3;
+
+}
+
+.content{
+  background-color: #00FF00;
+  order: 4;
+
+}
+
+.feature-1{
+
+  background-color: #008000;
+  order:5;
+}
+
+
+.feature-2{
+
+  background-color: #00008B;
+  order:6;
+}
+
+
+.feature-3{
+
+  background-color: #87CEEB;
+  order:7;
+}
+
+.section{
+
+  width: 100%;
+
+}
+
+
+/*pour mobile*/
+@media screen and (max-width: 300px) {
+  body {
+    background-color: pink;
+  }
+}
+
+/*pour tablette*/
+
+@media  only screen and (min-width:401px) and (max-width: 960px) {
+  body {
+    background-color: #FA8072;
+  }
+
+  .sign-up {
+    width: 50%;
+  }
+  .feature-1 {
+    width: 50%;
+  }
+  .feature-2 {
+    width: 50%;
+  }
+  .feature-3{
+    width: 50%;
+  }
+}
+
+
+/*pour pc*/
+
+
+@media screen and (min-width: 961px) {
+  body {
+    background-color: grey;
+  }
+
+  .feature-1 {
+    width: 33.3%;
+  }
+  .feature-2 {
+    width: 33.3%;
+  }
+  .feature-3 {
+    width: 33.3%;
+  }
+}
+/* ecran avec une largeur de 960px et une hauteur de 400px*/
+
+@media screen and (min-width: 960px) {
+
+  .page{
+    max-width: 960px;
+
+  }
+
+  .header{
+
+    height: 400px;
+  }
+
+
+}
+
+
+
+
+
+/*-------------Div princip--------------*/
+
+.page{
+
+  display: flex;
+  flex-wrap: wrap;
+
+  /*flex-flow: column;*/
+}

@@ -1,0 +1,52 @@
+body{
+
+  margin:0;
+  padding:0;
+  background-color: black;
+}
+
+.box1{
+height: 100vh;
+width: 100%;
+background-image: url("photos/fire.jpg");
+background-size: cover;
+display: table;
+background-attachment: fixed;
+}
+
+
+.box2{
+height: 100vh;
+width: 100%;
+background-image: url("photos/fond+leo.png");
+background-size: cover;
+display: table;
+background-attachment: fixed;
+}
+
+.box3{
+height: 100vh;
+width: 100%;
+background-image: url("photos/sunset.jpg");
+background-size: cover;
+display: table;
+background-attachment: fixed;
+}
+
+.box4{
+height: 100vh;
+width: 100%;
+background-image: url("photos/cloud.jpg");
+background-size: cover;
+display: table;
+background-attachment: fixed;
+}
+
+h1{
+font-family: 'Satisfy', cursive;
+font-size:50px;
+text-align: center;
+display: table-cell;
+vertical-align: middle;
+
+}
